@@ -4,6 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from "@/components/ui/button"
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 function App() {
   const [count, setCount] = useState(0)
