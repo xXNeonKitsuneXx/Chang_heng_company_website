@@ -11,12 +11,12 @@ export const Services = () => {
         <div className="flex flex-col items-center text-center space-y-4">
           <h2 className="text-4xl font-bold text-center">
             Our Services
-            <div className="mx-auto w-12 h-1 bg-[#17a44c] mt-2 rounded-full" />
+            <div className="mx-auto w-12 h-1 bg-green-500 mt-2 rounded-full" />
           </h2>
-          <p className="text-muted-foreground max-w-3xl text-2xl">
-            We offer a wide range of digital services to help your business
-            thrive in the online world.
-          </p>
+          {/* <p className="text-muted-foreground max-w-3xl text-2xl">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p> */}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           <div className="flex flex-col items-center space-y-4">

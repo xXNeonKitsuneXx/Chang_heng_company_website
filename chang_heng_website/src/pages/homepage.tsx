@@ -9,19 +9,27 @@ import { QASection } from "@/components/homepage/QASection";
 import { Contact } from "@/components/homepage/contact";
 import { Toaster } from "@/components/ui/toaster";
 import { Fragment } from "react/jsx-runtime";
+import { GreatWood } from "@/components/homepage/greatWood";
+import { GreatBaking } from "@/components/homepage/greatBaking";
 
 export const HomePage = () => {
   return (
     <Fragment>
       <Toaster />
       <Navbar />
+        <div id="home" className="scroll-mt-0 pt-16">
+          <Hero />
+        </div>
       <div className="pt-16">
-        <Hero />
         <div id="about">
           <About />
         </div>
         <div id="services" className="scroll-mt-36">
           <Services />
+        </div>
+        <GreatWood />
+        <div className="pt-24">
+          <GreatBaking />
         </div>
         <div id="products">
           <Products />

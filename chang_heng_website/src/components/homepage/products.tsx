@@ -15,8 +15,9 @@ const productImages = [
   "/CH_Product_1.JPG",
   "/CH_Product_2.JPG",
   "/CH_Product_3.JPG",
-  "/CH_Product_4.JPG",
+  "/CH_Product_4.jpg",
   "/CH_Product_5.JPG",
+  "/CH_Product_6.jpg",
 ];
 
 export const Products = () => {
@@ -72,11 +73,11 @@ export const Products = () => {
                 >
                   <div className="p-0">
                     <Card>
-                      <CardContent className="flex items-center justify-center p-0">
+                      <CardContent className="flex items-center justify-center p-0 max-w-422 max-h-316 min-w-422 min-h-316">
                         <img
                           src={src || "/Image_placeholder"}
                           alt={`Product ${index + 1}`}
-                          className="w-full object-contain rounded"
+                          className="w-full h-full object-cover rounded max-w-[422px] max-h-[316px] min-w-[422px] min-h-[316px]"
                         />
                       </CardContent>
                     </Card>
@@ -95,7 +96,7 @@ export const Products = () => {
                 className={cn(
                   "w-3 h-3 rounded-full transition-all duration-200 hover:scale-110",
                   current === index
-                    ? "bg-[#17a44c] scale-110"
+                    ? "bg-green-500 scale-110"
                     : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
                 )}
                 onClick={() => scrollTo(index)}

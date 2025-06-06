@@ -13,7 +13,7 @@ export const Contact = () => {
   const { toast } = useToast();
 
   const emailCopyToClipboard = () => {
-    const email = "@gmail.com";
+    const email = "changheng.th@gmail.com";
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
       toast({
@@ -43,25 +43,25 @@ export const Contact = () => {
           <CardContent>
             <div className="space-y-8">
               <div className="space-y-2">
-                <h2 className="text-3xl font-semibold">Contact me</h2>
+                <h2 className="text-3xl font-semibold">Contact Us</h2>
                 <div className="flex justify-center">
-                  <hr className="mt-1 h-1.5 bg-[#17a44c] border-none w-full" />
+                  <hr className="mt-1 h-1.5 bg-green-500 border-none w-full" />
                 </div>
                 <div className="py-1">
                   <div
                     onClick={emailCopyToClipboard}
-                    className="flex mt-1 hover:text-[#17a44c] hover:-translate-y-1 duration-300 cursor-pointer"
+                    className="flex mt-1 hover:text-green-500 hover:-translate-y-1 duration-300 cursor-pointer"
                   >
                     <FaEnvelope className="text-4xl md:text-5xl" />{" "}
                     <span className="pl-4 pt-1 md:pt-3 text-xl">
-                      Lorem@gmail.com
+                      changheng.th@gmail.com
                     </span>
                   </div>
                   {copied}
 
                   <div
                     onClick={phoneCopyToClipboard}
-                    className="flex mt-5 hover:text-[#17a44c] hover:-translate-y-1 duration-300 cursor-pointer"
+                    className="flex mt-5 hover:text-green-500 hover:-translate-y-1 duration-300 cursor-pointer"
                   >
                     <FaPhoneAlt className="text-4xl md:text-5xl" />{" "}
                     <span className="pl-4 pt-1 md:pt-3 text-xl">
@@ -74,7 +74,7 @@ export const Contact = () => {
                     <a
                       href="https://www.facebook.com/profile.php?id=100090867267443"
                       target="_blank"
-                      className="flex mt-5 hover:text-[#17a44c] hover:-translate-y-1 duration-300 cursor-pointer"
+                      className="flex mt-5 hover:text-green-500 hover:-translate-y-1 duration-300 cursor-pointer"
                     >
                       <FaFacebookSquare className="text-4xl md:text-5xl" />{" "}
                       <span className="pl-4 pt-1 md:pt-3 text-xl">
@@ -89,7 +89,7 @@ export const Contact = () => {
           </CardContent>
         </Card>
         {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px] hover:text-[#17a44c]">
+        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px] hover:text-green-500">
           <a
             href="https://www.google.com/maps/place/บริษัท+ช่างเฮง+จำกัด/@13.648077,100.4955955,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3682e8cd159:0xc9a6d1a935c4be24!8m2!3d13.648077!4d100.4981704!16s%2Fg%2F11g4jbk881?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
