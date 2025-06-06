@@ -9,22 +9,22 @@ export const Navbar = () => {
       </div>
       <nav className="lg:flex gap-4">
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Home</a>
+          <a href="/" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">Home</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#about" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">About</a>
+          <a href="/#about" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">About</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#services" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Services</a>
+          <a href="/#services" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">Services</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#products" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Products</a>
+          <a href="/#products" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">Products</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#qa" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Q&A</a>
+          <a href="/#qa" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">Q&A</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#contact" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Contact</a>
+          <a href="/#contact" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c] transition-colors duration-200">Contact</a>
         </div>
       </nav>
     </header>

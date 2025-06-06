@@ -18,7 +18,7 @@ export const QASection = () => {
             Frequently Asked Questions
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            ค้นหาคำตอบสำหรับคำถามทั่วไปเกี่ยวกับผลิตภัณฑ์และบริการของเรา
+            คำตอบสำหรับคำถามทั่วไปเกี่ยวกับผลิตภัณฑ์และบริการของเรา
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-3xl md:mt-12">

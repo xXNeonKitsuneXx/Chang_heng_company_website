@@ -20,7 +20,7 @@ export const About = () => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl border-l-4 border-[#17a44c] pl-4">
               About Us
             </h2>
-            <p className="text-muted-foreground md:text-xl">
+            <p className="text-muted-foreground md:text-xl pt-2">
               เราเป็นผู้เชี่ยวชาญด้านการผลิตลังไม้ พาเลทไม้
               และผลิตภัณฑ์ไม้สำหรับงานบรรจุภัณฑ์ตามแบบและขนาดที่ลูกค้าต้องการ
               ผลิตภัณฑ์ทั้งหมดผลิตจาก
