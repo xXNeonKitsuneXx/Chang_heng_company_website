@@ -17,17 +17,17 @@ export const QASection = () => {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Frequently Asked Questions
           </h2>
-          <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed dark:text-gray-400">
             คำตอบสำหรับคำถามทั่วไปเกี่ยวกับผลิตภัณฑ์และบริการของเรา
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-3xl md:mt-12">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value={`item-1`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
+              <AccordionTrigger className="text-left font-medium hover:text-[#17a44c] text-xl">
                 พาเลทไม้ดีอย่างไร?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-500 dark:text-gray-400">
+              <AccordionContent className="text-gray-500 dark:text-gray-400 text-base">
                 เป็น
                 <span className="text-[#17a44c] font-semibold">
                   วัสดุที่หาได้ง่าย
@@ -53,10 +53,10 @@ export const QASection = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-2`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
+              <AccordionTrigger className="text-left font-medium hover:text-[#17a44c] text-xl">
                 ผลิตภัณฑ์ของบริษัท ช่างเฮง จำกัด ดีอย่างไร?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-500 dark:text-gray-400">
+              <AccordionContent className="text-gray-500 dark:text-gray-400 text-base">
                 ผลิตภัณฑ์ของเรา ทำจาก
                 <span className="text-[#17a44c] font-semibold">ไม้ใหม่</span>
                 ที่
@@ -82,10 +82,10 @@ export const QASection = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-3`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
+              <AccordionTrigger className="text-left font-medium hover:text-[#17a44c] text-xl">
                 ผลิตภัณฑ์ของ ช่างเฮง ส่งออกได้ไหม?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-500 dark:text-gray-400">
+              <AccordionContent className="text-gray-500 dark:text-gray-400 text-base">
                 สามารถส่งออกได้ เพราะผลิตภัณฑ์ของเราได้รับการ
                 <span className="text-[#17a44c] font-semibold">อบความร้อน</span>
                 เพื่อฆ่าแมลงตามข้อกำหนดของ{" "}

@@ -13,7 +13,7 @@ export const Services = () => {
             Our Services
             <div className="mx-auto w-12 h-1 bg-[#17a44c] mt-2 rounded-full" />
           </h2>
-          <p className="text-muted-foreground max-w-3xl">
+          <p className="text-muted-foreground max-w-3xl text-2xl">
             We offer a wide range of digital services to help your business
             thrive in the online world.
           </p>

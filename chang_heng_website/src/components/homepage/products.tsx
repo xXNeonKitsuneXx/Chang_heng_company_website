@@ -53,7 +53,7 @@ export const Products = () => {
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
             Our Products
           </h2>
-          <p className="text-muted-foreground text-3xl pb-1">
+          <p className="text-muted-foreground text-2xl pb-1">
             ผลิตภัณฑ์บางส่วนของเรา
           </p>
           <Carousel
