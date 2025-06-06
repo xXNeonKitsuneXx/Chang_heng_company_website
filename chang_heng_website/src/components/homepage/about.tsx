@@ -4,7 +4,7 @@ export const About = () => {
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <img
-            src="/placeholder.svg"
+            src="./CH_Hero_2.jpg"
             width="550"
             height="400"
             alt="About"
@@ -14,27 +14,22 @@ export const About = () => {
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              About Our Agency
+              About Us
             </h2>
             <p className="text-muted-foreground md:text-xl">
-              We are a team of passionate digital experts who have been creating
-              innovative solutions for our clients since 2010. Our mission is to
-              help businesses of all sizes succeed in the digital landscape.
+              เราเป็นผู้เชี่ยวชาญด้านการผลิตลังไม้ พาเลทไม้
+              และผลิตภัณฑ์ไม้สำหรับงานบรรจุภัณฑ์ตามแบบและขนาดที่ลูกค้าต้องการ
+              ผลิตภัณฑ์ทั้งหมดผลิตจากไม้ใหม่ ไม่เคยผ่านการใช้งาน
+              และผ่านกระบวนการอัดน้ำยาเพื่อป้องกันแมลง
+              รวมถึงอบความร้อนตามมาตรฐาน IPPC
+              เพื่อรองรับการส่งออกไปยังต่างประเทศ
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="flex flex-col gap-1">
-              <h3 className="text-lg font-semibold">Our Team</h3>
-              <p className="text-muted-foreground">
-                Meet the talented individuals behind our agency.
-              </p>
-            </div>
-            <div className="flex flex-col gap-1">
-              <h3 className="text-lg font-semibold">Our History</h3>
-              <p className="text-muted-foreground">
-                Learn about our journey and how we've grown over the years.
-              </p>
-            </div>
+          <div className="flex flex-col gap-1">
+            <p className="text-muted-foreground">
+              ด้วยประสบการณ์มากกว่า 40 ปี
+              เราพร้อมให้คำแนะนำและบริการที่ตอบโจทย์ความต้องการของลูกค้าได้อย่างมืออาชีพ
+            </p>
           </div>
         </div>
       </div>

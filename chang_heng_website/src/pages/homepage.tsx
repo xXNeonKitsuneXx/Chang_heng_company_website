@@ -6,11 +6,13 @@ import { Services } from '@/components/homepage/service';
 import { Footer } from '@/components/footer/footer';
 import { Products } from '@/components/homepage/products';
 import { Contact } from '@/components/homepage/contact';
+import { Toaster } from '@/components/ui/toaster';
 
 export const HomePage = () => {
 
   return (
     <>
+    <Toaster />
     <Navbar />
     <Hero />
     <About />

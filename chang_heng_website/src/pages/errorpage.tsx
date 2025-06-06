@@ -1,9 +1,12 @@
+import { Fragment } from "react/jsx-runtime";
 import "../../app/globals.css";
 import { Footer } from "@/components/footer/footer";
+import { Navbar } from "@/components/navbar/navbar";
 
 export const ErrorPage = () => {
   return (
-    <>
+    <Fragment>
+      <Navbar />
       <div className="flex justify-center items-center">
         <section className="bg-white mt-[120px] my-[50px]">
           <div
@@ -28,6 +31,6 @@ export const ErrorPage = () => {
         </section>
       </div>
       <Footer />
-    </>
+    </Fragment>
   );
 };
