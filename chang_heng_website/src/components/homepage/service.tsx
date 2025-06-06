@@ -1,4 +1,4 @@
-import { SmartphoneIcon, StoreIcon, WebhookIcon } from "lucide-react";
+import { HammerIcon, PencilRulerIcon, UserCheckIcon } from "lucide-react";
 
 export const Services = () => {
   return (
@@ -19,34 +19,36 @@ export const Services = () => {
           </p> */}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center justify-center text-center space-y-4">
             <div className="bg-primary rounded-full p-4">
-              <WebhookIcon className="w-8 h-8 text-primary-foreground" />
+              <HammerIcon className="w-8 h-8 text-primary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold">Web Development</h3>
+            <h3 className="text-xl font-semibold">ผลิตพาเลทไม้และลังไม้</h3>
             <p className="text-muted-foreground">
-              We build custom, responsive websites that are optimized for
-              performance and user experience.
+              รับสั่งผลิตพาเลทไม้ ลังไม้ และบรรจุภัณฑ์ไม้ทุกรูปแบบ
+              ตามขนาดและดีไซน์ที่เหมาะกับการใช้งานจริงของคุณ
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center justify-center text-center space-y-4">
             <div className="bg-primary rounded-full p-4">
-              <SmartphoneIcon className="w-8 h-8 text-primary-foreground" />
+              <PencilRulerIcon className="w-8 h-8 text-primary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold">Mobile App Development</h3>
+            <h3 className="text-xl font-semibold">ออกแบบบรรจุภัณฑ์เฉพาะทาง</h3>
             <p className="text-muted-foreground">
-              Our team of experts create intuitive and engaging mobile
-              applications for iOS and Android.
+              ออกแบบบรรจุภัณฑ์ไม้ให้เหมาะสมกับประเภทสินค้า น้ำหนัก
+              และรูปแบบการขนส่ง เพื่อความแข็งแรงและปลอดภัยสูงสุด
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center justify-center text-center space-y-4">
             <div className="bg-primary rounded-full p-4">
-              <StoreIcon className="w-8 h-8 text-primary-foreground" />
+              <UserCheckIcon className="w-8 h-8 text-primary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold">Digital Marketing</h3>
+            <h3 className="text-xl font-semibold">
+              ให้คำปรึกษาโดยผู้เชี่ยวชาญ
+            </h3>
             <p className="text-muted-foreground">
-              We develop and execute targeted digital marketing strategies to
-              drive traffic and increase conversions.
+              ทีมงานมากประสบการณ์พร้อมแนะนำตั้งแต่การเลือกชนิดไม้ การออกแบบ
+              ไปจนถึงการจัดส่งที่มีประสิทธิภาพ
             </p>
           </div>
         </div>
