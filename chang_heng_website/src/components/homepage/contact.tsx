@@ -89,7 +89,7 @@ export const Contact = () => {
           </CardContent>
         </Card>
         {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px]">
+        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px] hover:text-[#17a44c]">
           <a
             href="https://www.google.com/maps/place/บริษัท+ช่างเฮง+จำกัด/@13.648077,100.4955955,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3682e8cd159:0xc9a6d1a935c4be24!8m2!3d13.648077!4d100.4981704!16s%2Fg%2F11g4jbk881?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"

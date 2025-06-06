@@ -24,7 +24,7 @@ export const QASection = () => {
         <div className="mx-auto mt-8 max-w-3xl md:mt-12">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value={`item-1`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
                 พาเลทไม้ดีอย่างไร?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
@@ -52,7 +52,7 @@ export const QASection = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-2`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
                 ผลิตภัณฑ์ของบริษัท ช่างเฮง จำกัด ดีอย่างไร?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
@@ -81,7 +81,7 @@ export const QASection = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-3`}>
-              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c]">
                 ผลิตภัณฑ์ของ ช่างเฮง ส่งออกได้ไหม?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
