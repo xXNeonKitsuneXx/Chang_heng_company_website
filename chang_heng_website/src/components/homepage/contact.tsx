@@ -1,10 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CalendarDaysIcon, CompassIcon, MapPinIcon } from "lucide-react";
+import { CalendarDaysIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 import { useState } from "react";
 import {
   FaEnvelope,
   FaFacebookSquare,
-  FaInstagram,
   FaPhoneAlt,
 } from "react-icons/fa";
 import { useToast } from "@/hooks/use-toast";
@@ -84,25 +83,13 @@ export const Contact = () => {
                     </a>
                   </div>
 
-                  <div>
-                    <a
-                      href="https://www.instagram.com/kitsune_ne_cs/"
-                      target="_blank"
-                      className=" flex mt-5 hover:text-[#17a44c] hover:-translate-y-1 duration-300 cursor-pointer"
-                    >
-                      <FaInstagram className="text-4xl md:text-5xl" />{" "}
-                      <span className="pl-4 pt-1 md:pt-3 text-xl">
-                        @kitsune_ne_cs
-                      </span>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
           </CardContent>
         </Card>
         {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all">
+        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px]">
           <a
             href="https://www.google.com/maps/place/บริษัท+ช่างเฮง+จำกัด/@13.648077,100.4955955,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3682e8cd159:0xc9a6d1a935c4be24!8m2!3d13.648077!4d100.4981704!16s%2Fg%2F11g4jbk881?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
@@ -128,19 +115,19 @@ export const Contact = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <MapPinIcon className="w-6 h-6 text-muted-foreground" />
+                  <MapPinIcon className="min-w-6 min-h-6 text-muted-foreground" />
                   <div className="text-muted-foreground">
                     181 ซอยประชาอุทิศ 49 แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <CalendarDaysIcon className="w-6 h-6 text-muted-foreground" />
+                  <CalendarDaysIcon className="min-w-6 min-h-6 text-muted-foreground" />
                   <div className="text-muted-foreground">
                     เปิดทำการ: จันทร์ – เสาร์
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <CompassIcon className="w-6 h-6 text-muted-foreground" />
+                  <PhoneIcon className="min-w-6 min-h-6 text-muted-foreground" />
                   <div className="text-muted-foreground">
                     081-666-6686, 081-855-4992
                   </div>

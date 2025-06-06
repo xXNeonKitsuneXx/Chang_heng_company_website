@@ -6,7 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-// import Autoplay from "embla-carousel-autoplay"
+
 import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 import { cn } from "@/lib/utils";
@@ -54,7 +54,7 @@ export const Products = () => {
             Our Products
           </h2>
           <p className="text-muted-foreground text-3xl">
-            Check out some of our products
+            ผลิตภัณฑ์บางส่วนของเรา
           </p>
           <Carousel
             setApi={setApi}

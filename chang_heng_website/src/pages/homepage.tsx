@@ -5,6 +5,7 @@ import { About } from "@/components/homepage/about";
 import { Services } from "@/components/homepage/service";
 import { Footer } from "@/components/footer/footer";
 import { Products } from "@/components/homepage/products";
+import { QASection } from "@/components/homepage/QASection";
 import { Contact } from "@/components/homepage/contact";
 import { Toaster } from "@/components/ui/toaster";
 import { Fragment } from "react/jsx-runtime";
@@ -19,13 +20,16 @@ export const HomePage = () => {
         <div id="about">
           <About />
         </div>
-        <div id="services">
+        <div id="services" className="scroll-mt-36">
           <Services />
         </div>
         <div id="products">
           <Products />
         </div>
-        <div id="contact">
+        <div id="qa" className="scroll-mt-36">
+          <QASection />
+        </div>
+        <div id="contact" className="scroll-mt-36">
           <Contact />
         </div>
         <Footer />

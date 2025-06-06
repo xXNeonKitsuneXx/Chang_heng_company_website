@@ -12,19 +12,19 @@ export const Navbar = () => {
           <a href="/">Home</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="#services">Services</a>
+          <a href="/#services">Services</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="#products">Products</a>
+          <a href="/#products">Products</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="#qa">Q&A</a>
+          <a href="/#qa">Q&A</a>
         </div>
         <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </div>
       </nav>
     </header>
