@@ -1,7 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CalendarDaysIcon, CompassIcon, MapPinIcon } from "lucide-react";
 import { useState } from "react";
-import { FaEnvelope, FaFacebookSquare, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebookSquare,
+  FaInstagram,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { useToast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -18,7 +23,7 @@ export const Contact = () => {
     });
   };
 
-    const phoneCopyToClipboard = () => {
+  const phoneCopyToClipboard = () => {
     const email = "BocchiKitsuNei@gmail.com";
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
@@ -29,8 +34,12 @@ export const Contact = () => {
   };
 
   return (
-    <section className="bg-muted pt-10 pb-20 px-4 md:px-6">
-      <div className="mt-28 flex-col lg:flex-row flex justify-center items-center">
+    <section className="bg-muted pb-20 px-4 md:px-6">
+      <div
+        className="flex-col lg:flex-row flex justify-center items-center"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+      >
         <Card className="p-6 mb-4 lg:mr-16 w-[450px]">
           <CardContent>
             <div className="space-y-8">
@@ -93,11 +102,7 @@ export const Contact = () => {
           </CardContent>
         </Card>
         {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Card
-          className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
+        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all">
           <a
             href="https://www.google.com/maps/place/บริษัท+ช่างเฮง+จำกัด/@13.648077,100.4955955,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3682e8cd159:0xc9a6d1a935c4be24!8m2!3d13.648077!4d100.4981704!16s%2Fg%2F11g4jbk881?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
