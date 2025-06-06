@@ -14,20 +14,22 @@ export const HomePage = () => {
     <Fragment>
       <Toaster />
       <Navbar />
-      <Hero />
-      <div id="about">
-        <About />
+      <div className="pt-16">
+        <Hero />
+        <div id="about">
+          <About />
+        </div>
+        <div id="services">
+          <Services />
+        </div>
+        <div id="products">
+          <Products />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <div id="services">
-        <Services />
-      </div>
-      <div id="products">
-        <Products />
-      </div>
-      <div id="contact">
-        <Contact />
-      </div>
-      <Footer />
     </Fragment>
   );
 };
