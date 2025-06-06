@@ -17,21 +17,28 @@ export const About = () => {
         </div>
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl border-l-4 border-[#17a44c] pl-4">
               About Us
             </h2>
             <p className="text-muted-foreground md:text-xl">
               เราเป็นผู้เชี่ยวชาญด้านการผลิตลังไม้ พาเลทไม้
               และผลิตภัณฑ์ไม้สำหรับงานบรรจุภัณฑ์ตามแบบและขนาดที่ลูกค้าต้องการ
-              ผลิตภัณฑ์ทั้งหมดผลิตจากไม้ใหม่ ไม่เคยผ่านการใช้งาน
-              และผ่านกระบวนการอัดน้ำยาเพื่อป้องกันแมลง
-              รวมถึงอบความร้อนตามมาตรฐาน IPPC
-              เพื่อรองรับการส่งออกไปยังต่างประเทศ
+              ผลิตภัณฑ์ทั้งหมดผลิตจาก
+              <span className="text-[#17a44c] font-semibold">ไม้ใหม่</span>
+              ไม่เคยผ่านการใช้งาน และผ่านกระบวนการอัดน้ำยาเพื่อป้องกันแมลง
+              รวมถึงอบความร้อนตาม
+              <span className="text-[#17a44c] font-semibold">
+                มาตรฐาน IPPC{" "}
+              </span>
+              เพื่อรองรับการ
+              <span className="text-[#17a44c] font-semibold">ส่งออก</span>
+              ไปยังต่างประเทศ
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-muted-foreground">
-              ด้วยประสบการณ์มากกว่า 40 ปี
+              ด้วยประสบการณ์มากกว่า{" "}
+              <span className="text-[#17a44c] font-semibold">40 ปี </span>
               เราพร้อมให้คำแนะนำและบริการที่ตอบโจทย์ความต้องการของลูกค้าได้อย่างมืออาชีพ
             </p>
           </div>

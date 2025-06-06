@@ -8,23 +8,23 @@ export const Navbar = () => {
         <span className="sr-only">Change Heng</span>
       </div>
       <nav className="lg:flex gap-4">
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/">Home</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Home</a>
         </div>
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#about">About</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/#about" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">About</a>
         </div>
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#services">Services</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/#services" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Services</a>
         </div>
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#products">Products</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/#products" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Products</a>
         </div>
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#qa">Q&A</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/#qa" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Q&A</a>
         </div>
-        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-          <a href="/#contact">Contact</a>
+        <div className="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
+          <a href="/#contact" className="hover:text-[#17a44c] hover:border-b-2 hover:border-[#17a44c]">Contact</a>
         </div>
       </nav>
     </header>

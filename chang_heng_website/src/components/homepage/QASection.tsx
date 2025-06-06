@@ -24,43 +24,76 @@ export const QASection = () => {
         <div className="mx-auto mt-8 max-w-3xl md:mt-12">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value={`item-1`}>
-              <AccordionTrigger className="text-left text-base font-medium">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
                 พาเลทไม้ดีอย่างไร?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
-                เป็นวัสดุที่หาได้ง่าย และสามารถผลิตได้ในเวลารวดเร็ว ราคาไม่แพง
-                แข็งแรง ทนทาน สามารถรับน้ำหนักได้มากถึง 2 ตัน (ขึ้นอยู่กับแบบ)
+                <span className="text-[#17a44c] font-semibold">
+                  วัสดุที่หาได้ง่าย
+                </span>
+                และสามารถผลิตได้ในเวลารวดเร็ว ราคาไม่แพง
+                <span className="text-[#17a44c] font-semibold">
+                  แข็งแรง ทนทาน
+                </span>
+                สามารถรับน้ำหนักได้มากถึง 2 ตัน (ขึ้นอยู่กับแบบ)
                 <br /> <br />
-                หากผลิตภัณฑ์ชำรุด หรือแตกหัก ก็สามารถซ่อมแซมเป็นจุดๆ
-                ได้โดยไม่ต้องผลิตใหม่ทั้งชิ้น
-                เป็นการประหยัดค่าใช้จ่ายในการดูแลรักษา
-                และสามารถนำกลับมาใช้ใหม่ได้ <br /> <br />
+                หากผลิตภัณฑ์ชำรุด หรือแตกหัก ก็สามารถ
+                <span className="text-[#17a44c] font-semibold">
+                  ซ่อมแซมเป็นจุด ๆ ได้
+                </span>
+                โดยไม่ต้องผลิตใหม่ทั้งชิ้น
+                เป็นการประหยัดค่าใช้จ่ายในการดูแลรักษา และสามารถ
+                <span className="text-[#17a44c] font-semibold">
+                  นำกลับมาใช้ใหม่ได้
+                </span>{" "}
+                <br /> <br />
                 หากต้องส่งพาเลทออกต่างประเทศไปพร้อมกับผลิตภัณฑ์ของท่าน
                 พาเลทไม้ก็จะเป็นตัวเลือกที่ถูกกว่าพาเลตจากวัสดุอื่น
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-2`}>
-              <AccordionTrigger className="text-left text-base font-medium">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
                 ผลิตภัณฑ์ของบริษัท ช่างเฮง จำกัด ดีอย่างไร?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
-                ผลิตภัณฑ์ของเรา ทำจากไม้ใหม่ที่ไม่เคยผ่านการใช้งานมาก่อน
-                จึงมีความแข็งแรงมากกว่า และไม้ที่ใช้ยัง
-                ผ่านการอัดน้ำยารักษาเนื้อไม้ เพื่อยืดอายุ
-                และป้องกันไม้จากแมลงกินไม้ต่าง ๆ
+                ผลิตภัณฑ์ของเรา ทำจาก
+                <span className="text-[#17a44c] font-semibold">ไม้ใหม่</span>
+                ที่
+                <span className="text-[#17a44c] font-semibold">
+                  ไม่เคยผ่านการใช้งาน
+                </span>
+                มาก่อน จึงมีความแข็งแรงมากกว่า และไม้ที่ใช้ยังผ่านการ
+                <span className="text-[#17a44c] font-semibold">อัดน้ำยา</span>
+                รักษาเนื้อไม้ เพื่อยืดอายุ และป้องกันไม้จากแมลงกินไม้ต่าง ๆ
                 <br /> <br />
-                ทั้งนี้ เรายังมีการ stock ไม้ไว้ในปริมาณมาก เมื่อลูกค้าสั่งผลิต
-                ก็สามารถนำมาผลิตได้ทันที ลูกค้าจึงไม่ต้องรอนาน
+                ทั้งนี้ เรายัง
+                <span className="text-[#17a44c] font-semibold">
+                  มีการสต๊อก{" "}
+                </span>
+                ไม้ไว้ในปริมาณมาก เมื่อลูกค้าสั่งผลิต ก็สามารถนำมา
+                <span className="text-[#17a44c] font-semibold">
+                  ผลิตได้ทันที{" "}
+                </span>
+                ลูกค้าจึง
+                <span className="text-[#17a44c] font-semibold">
+                  ไม่ต้องรอนาน
+                </span>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-3`}>
-              <AccordionTrigger className="text-left text-base font-medium">
+              <AccordionTrigger className="text-left text-base font-medium hover:text-[#17a44c] transition-colors duration-200">
                 ผลิตภัณฑ์ของ ช่างเฮง ส่งออกได้ไหม?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
-                สามารถส่งออกได้
-                เพราะผลิตภัณฑ์ของเราได้รับการอบความร้อนเพื่อฆ่าแมลงตามข้อกำหนดของ
-                IPPC แล้ว สามารถประทับตราใบสน และออกใบรับรองให้ได้
+                สามารถส่งออกได้ เพราะผลิตภัณฑ์ของเราได้รับการ
+                <span className="text-[#17a44c] font-semibold">อบความร้อน</span>
+                เพื่อฆ่าแมลงตามข้อกำหนดของ{" "}
+                <span className="text-[#17a44c] font-semibold">IPPC </span>แล้ว
+                สามารถ
+                <span className="text-[#17a44c] font-semibold">ประทับตรา</span>
+                ใบสน และออก
+                <span className="text-[#17a44c] font-semibold">ใบรับรอง</span>
+                ให้ได้
               </AccordionContent>
             </AccordionItem>
           </Accordion>
