@@ -28,6 +28,7 @@ export const QASection = () => {
                 พาเลทไม้ดีอย่างไร?
               </AccordionTrigger>
               <AccordionContent className="text-gray-500 dark:text-gray-400">
+                เป็น
                 <span className="text-[#17a44c] font-semibold">
                   วัสดุที่หาได้ง่าย
                 </span>
