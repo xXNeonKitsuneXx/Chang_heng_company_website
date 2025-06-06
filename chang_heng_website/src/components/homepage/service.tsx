@@ -9,8 +9,9 @@ export const Services = () => {
         data-aos-duration="500"
       >
         <div className="flex flex-col items-center text-center space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          <h2 className="text-4xl font-bold text-center">
             Our Services
+            <div className="mx-auto w-12 h-1 bg-[#17a44c] mt-2 rounded-full" />
           </h2>
           <p className="text-muted-foreground max-w-3xl">
             We offer a wide range of digital services to help your business

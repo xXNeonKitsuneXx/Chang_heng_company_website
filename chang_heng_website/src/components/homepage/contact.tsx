@@ -13,7 +13,7 @@ export const Contact = () => {
   const { toast } = useToast();
 
   const emailCopyToClipboard = () => {
-    const email = "BocchiKitsuNei@gmail.com";
+    const email = "@gmail.com";
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
       toast({
@@ -23,8 +23,8 @@ export const Contact = () => {
   };
 
   const phoneCopyToClipboard = () => {
-    const email = "BocchiKitsuNei@gmail.com";
-    navigator.clipboard.writeText(email).then(() => {
+    const phone = "081-666-6686";
+    navigator.clipboard.writeText(phone).then(() => {
       setCopied(true);
       toast({
         title: "Phone number copied to clipboard!",
@@ -54,7 +54,7 @@ export const Contact = () => {
                   >
                     <FaEnvelope className="text-4xl md:text-5xl" />{" "}
                     <span className="pl-4 pt-1 md:pt-3 text-xl">
-                      BocchiKitsuNei@gmail.com
+                      Lorem@gmail.com
                     </span>
                   </div>
                   {copied}
@@ -72,13 +72,13 @@ export const Contact = () => {
 
                   <div>
                     <a
-                      href="https://www.facebook.com/xXNekoLordXx/"
+                      href="https://www.facebook.com/profile.php?id=100090867267443"
                       target="_blank"
                       className="flex mt-5 hover:text-[#17a44c] hover:-translate-y-1 duration-300 cursor-pointer"
                     >
                       <FaFacebookSquare className="text-4xl md:text-5xl" />{" "}
                       <span className="pl-4 pt-1 md:pt-3 text-xl">
-                        อยากรวย แต่ ไม่อยากเรียน เน
+                        พาเลทไม้ ช่างเฮง 
                       </span>
                     </a>
                   </div>
