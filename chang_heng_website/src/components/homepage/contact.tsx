@@ -33,14 +33,14 @@ export const Contact = () => {
   };
 
   return (
-    <section className="bg-muted pb-20 px-4 md:px-6">
+    <section className="bg-muted pb-10 lg:pb-20 px-4 md:px-6">
       <div
         className="flex-col lg:flex-row flex justify-center items-center"
         data-aos="zoom-in"
         data-aos-duration="500"
       >
-        <Card className="p-6 mb-4 lg:mr-16 w-[450px]">
-          <CardContent>
+        <Card className="p-6 mb-4 lg:mr-16 w-[350px] lg:w-[450px] md:w-[400px]">
+          <CardContent className="p-0 lg:px-6 ">
             <div className="space-y-8">
               <div className="space-y-2">
                 <h2 className="text-3xl font-semibold">Contact Us</h2>
@@ -52,7 +52,7 @@ export const Contact = () => {
                     onClick={emailCopyToClipboard}
                     className="flex mt-1 hover:text-green-500 hover:-translate-y-1 duration-300 cursor-pointer"
                   >
-                    <FaEnvelope className="text-4xl md:text-5xl" />{" "}
+                    <FaEnvelope className="min-w-9 min-h-9 md:min-w-12 md:min-h-12" />{" "}
                     <span className="pl-4 pt-1 md:pt-3 text-xl">
                       changheng.th@gmail.com
                     </span>
@@ -89,7 +89,7 @@ export const Contact = () => {
           </CardContent>
         </Card>
         {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[400px] hover:text-green-500">
+        <Card className="w-2xl max-w-md hover:!scale-105 duration-500 cursor-pointer transition-all w-[350px] lg:w-[400px] hover:text-green-500">
           <a
             href="https://www.google.com/maps/place/บริษัท+ช่างเฮง+จำกัด/@13.648077,100.4955955,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3682e8cd159:0xc9a6d1a935c4be24!8m2!3d13.648077!4d100.4981704!16s%2Fg%2F11g4jbk881?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"

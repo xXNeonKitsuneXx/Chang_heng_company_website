@@ -3,8 +3,6 @@ import {
   CarouselApi,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -27,9 +25,7 @@ export const Products = () => {
   const [current, setCurrent] = React.useState(0);
 
   React.useEffect(() => {
-    if (!api) {
-      return;
-    }
+    if (!api) return;
 
     setCurrent(api.selectedScrollSnap());
 
@@ -76,15 +72,15 @@ export const Products = () => {
               {productImages.map((src, index) => (
                 <CarouselItem
                   key={index}
-                  className="pl-1 md:basis-1/2 lg:basis-1/3"
+                  className="pl-2 md:basis-1/2 xl:basis-1/3"
                 >
                   <div className="p-0">
                     <Card>
-                      <CardContent className="flex items-center justify-center p-0 max-w-422 max-h-316 min-w-422 min-h-316">
+                      <CardContent className="flex items-center justify-center p-0 w-full h-[316px]">
                         <img
                           src={src || "/Image_placeholder"}
                           alt={`Product ${index + 1}`}
-                          className="w-full h-full object-cover rounded max-w-[422px] max-h-[316px] min-w-[422px] min-h-[316px]"
+                          className="w-full h-[316px] object-cover rounded"
                         />
                       </CardContent>
                     </Card>
@@ -92,8 +88,6 @@ export const Products = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
 
           <div className="flex justify-center space-x-2 pt-4">

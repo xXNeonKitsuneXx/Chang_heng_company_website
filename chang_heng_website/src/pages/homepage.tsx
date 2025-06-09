@@ -20,7 +20,7 @@ export const HomePage = () => {
         <div id="home" className="scroll-mt-0 pt-16">
           <Hero />
         </div>
-      <div className="pt-16">
+      <div className="mb:pt-16">
         <div id="about">
           <About />
         </div>
