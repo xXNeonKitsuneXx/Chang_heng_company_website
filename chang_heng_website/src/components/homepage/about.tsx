@@ -8,7 +8,7 @@ export const About = () => {
       >
         <div>
           <img
-            src="./CH_About.jpg"
+            src="./CH_About.webp"
             width="550"
             height="400"
             alt="เกี่ยวกับ ช่างเฮง พาเลตไม้ ลังไม้ IPPC ส่งออก"

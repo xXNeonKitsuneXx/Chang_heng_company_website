@@ -9,7 +9,7 @@ export const GreatWood = () => {
       {/* Left Background Image */}
       <div className="absolute left-0 top-0 w-1/2 h-full">
         <img
-          src="CH_GreatWood_1.jpg"
+          src="CH_GreatWood_1.webp"
           alt="วัตถุดิบไม้คุณภาพด้านซ้ายสำหรับพาเลตไม"
           className="w-full h-full object-cover"
         />
@@ -18,7 +18,7 @@ export const GreatWood = () => {
       {/* Right Background Image */}
       <div className="absolute right-0 top-0 w-1/2 h-full">
         <img
-          src="CH_GreatWood_2.JPG"
+          src="CH_GreatWood_2.webp"
           alt="วัตถุดิบไม้ด้านขวาสำหรับผลิตลังไม้"
           className="w-full h-full object-cover"
         />

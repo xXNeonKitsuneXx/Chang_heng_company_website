@@ -6,7 +6,7 @@ export const Hero = () => {
         data-aos="zoom-in"
       >
         <img
-          src="CH_Hero.jpg"
+          src="CH_Hero.webp"
           alt="ช่างเฮง พาเลตไม้ Wooden Pallet คุณภาพสูง"
           className="absolute inset-0 w-full h-full object-cover"
         />

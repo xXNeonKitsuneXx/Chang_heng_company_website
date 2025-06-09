@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className="mr-6 flex items-center hover:bg-accent hover:rounded-full">
         <a href="/">
           <img
-            src="CH_Icon.png"
+            src="CH_Icon.webp"
             className="max-w-12 max-h-12"
             alt="โลโก้บริษัท ช่างเฮง"
           />

@@ -95,7 +95,7 @@ export const Contact = () => {
             <div className="grid grid-rows-[1fr_1fr]">
               <div className="relative overflow-hidden rounded-t-xl">
                 <img
-                  src="/CH_Map.png"
+                  src="/CH_Map.webp"
                   alt="แผนที่ที่ตั้งบริษัท ช่างเฮง จำกัด ในเขตทุ่งครุ กรุงเทพฯ"
                   width="400"
                   height="200"

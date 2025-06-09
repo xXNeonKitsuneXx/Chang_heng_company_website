@@ -8,7 +8,7 @@ export const GreatBaking= () => {
       {/* Left Background Image */}
       <div className="absolute left-0 top-0 w-1/2 h-full">
         <img
-          src="CH_Baking_2_UpScale.jpg"
+          src="CH_Baking_2_UpScale.webp"
           alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลตไม้โดยช่างเฮง"
           className="w-full h-full object-cover"
         />
@@ -17,7 +17,7 @@ export const GreatBaking= () => {
       {/* Right Background Image */}
       <div className="absolute right-0 top-0 w-1/2 h-full">
         <img
-          src="CH_Baking_UpScale_Edited.jpg"
+          src="CH_Baking_UpScale_Edited.webp"
           alt="การอบความร้อนไม้ด้านซ้ายตามมาตรฐาน IPPC"
           className="w-full h-full object-cover"
         />

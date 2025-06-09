@@ -12,12 +12,12 @@ import { cn } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 
 const productImages = [
-  "/CH_Product_1.JPG",
-  "/CH_Product_2.JPG",
-  "/CH_Product_3.JPG",
-  "/CH_Product_4.jpg",
-  "/CH_Product_5.JPG",
-  "/CH_Product_6.jpg",
+  "/CH_Product_1.webp",
+  "/CH_Product_2.webp",
+  "/CH_Product_3.webp",
+  "/CH_Product_4.webp",
+  "/CH_Product_5.webp",
+  "/CH_Product_6.webp",
 ];
 
 export const Products = () => {
