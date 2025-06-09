@@ -1,11 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CalendarDaysIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 import { useState } from "react";
-import {
-  FaEnvelope,
-  FaFacebookSquare,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaEnvelope, FaFacebookSquare, FaPhoneAlt } from "react-icons/fa";
 import { useToast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -33,7 +29,10 @@ export const Contact = () => {
   };
 
   return (
-    <section className="bg-muted pb-10 lg:pb-20 px-4 md:px-6">
+    <section
+      className="bg-muted pb-10 lg:pb-20 px-4 md:px-6"
+      aria-label="ติดต่อบริษัท ช่างเฮง จำกัด ที่อยู่ เบอร์โทร อีเมล และแผนที่"
+    >
       <div
         className="flex-col lg:flex-row flex justify-center items-center"
         data-aos="zoom-in"
@@ -78,11 +77,10 @@ export const Contact = () => {
                     >
                       <FaFacebookSquare className="text-4xl md:text-5xl" />{" "}
                       <span className="pl-4 pt-1 md:pt-3 text-xl">
-                        พาเลทไม้ ช่างเฮง 
+                        พาเลทไม้ ช่างเฮง
                       </span>
                     </a>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -98,7 +96,7 @@ export const Contact = () => {
               <div className="relative overflow-hidden rounded-t-xl">
                 <img
                   src="/CH_Map.png"
-                  alt="Map"
+                  alt="แผนที่ที่ตั้งบริษัท ช่างเฮง จำกัด ในเขตทุ่งครุ กรุงเทพฯ"
                   width="400"
                   height="200"
                   className="object-cover w-full h-full"

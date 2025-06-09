@@ -1,13 +1,13 @@
 export const Hero = () => {
   return (
-    <section className="flex justify-center items-center">
+    <section className="flex justify-center items-center" aria-label="Hero section promoting Wooden Pallet solutions by ช่างเฮง">
       <div
         className="relative w-full h-[80vh] flex items-center justify-center"
         data-aos="zoom-in"
       >
         <img
           src="CH_Hero.jpg"
-          alt="Background Image"
+          alt="ช่างเฮง พาเลตไม้ Wooden Pallet คุณภาพสูง"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/30" />

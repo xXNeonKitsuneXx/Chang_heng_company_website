@@ -1,37 +1,3 @@
-// export const GreatBaking = () => {
-//   return (
-//     <section className="relative w-full h-[80vh] overflow-hidden"
-//           data-aos="fade-down"
-//       data-aos-duration="500">
-//       {/* Background wrapper */}
-//       <div className="absolute inset-0 w-full h-full">
-//         {/* Left image */}
-//         <img
-//           src="CH_Baking_2.jpg"
-//           alt="Left Image"
-//           className="absolute top-0 left-0 w-full h-full object-cover clip-left z-10"
-//         />
-//         {/* Right image */}
-//         <img
-//           src="CH_Baking_UpScale_Edited.jpg"
-//           alt="Right Image"
-//           className="absolute top-0 left-0 w-full h-full object-cover clip-right z-20"
-//         />
-//         {/* Optional dark overlay */}
-//         <div className="absolute inset-0 bg-black/30 z-30" />
-//       </div>
-
-//       {/* Foreground text */}
-//       <div className="relative z-40 flex items-center justify-center h-full text-center px-4">
-//           <h1 className="text-4xl md:text-6xl font-bold text-white text-center">
-//             อบความร้อนตาม
-//             <span className="text-green-500">มาตรฐาน IPPC</span>
-//           </h1>
-//       </div>
-//     </section>
-//   );
-// };
-
 export const GreatBaking= () => {
   return (
     <section
@@ -43,7 +9,7 @@ export const GreatBaking= () => {
       <div className="absolute left-0 top-0 w-1/2 h-full">
         <img
           src="CH_Baking_2_UpScale.jpg"
-          alt="Left Background"
+          alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลตไม้โดยช่างเฮง"
           className="w-full h-full object-cover"
         />
       </div>
@@ -52,7 +18,7 @@ export const GreatBaking= () => {
       <div className="absolute right-0 top-0 w-1/2 h-full">
         <img
           src="CH_Baking_UpScale_Edited.jpg"
-          alt="Right Background"
+          alt="การอบความร้อนไม้ด้านซ้ายตามมาตรฐาน IPPC"
           className="w-full h-full object-cover"
         />
       </div>

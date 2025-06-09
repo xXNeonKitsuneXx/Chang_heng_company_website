@@ -1,7 +1,12 @@
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const navigationItems = [
   { name: "Home", href: "/#home" },
@@ -10,22 +15,32 @@ const navigationItems = [
   { name: "Products", href: "/#products" },
   { name: "Q&A", href: "/#qa" },
   { name: "Contact", href: "/#contact" },
-]
+];
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full flex h-16 items-center px-4 md:px-6 bg-background border-b shadow backdrop-blur supports-[backdrop-filter]:bg-background/80">
+    <header
+      className="fixed top-0 left-0 z-50 w-full flex h-16 items-center px-4 md:px-6 bg-background border-b shadow backdrop-blur supports-[backdrop-filter]:bg-background/80"
+      aria-label="แถบนำทางหลักของเว็บไซต์ ช่างเฮง"
+    >
       <div className="mr-6 flex items-center hover:bg-accent hover:rounded-full">
         <a href="/">
-          <img src="CH_Icon.png" className="max-w-12 max-h-12" alt="Change Heng" />
+          <img
+            src="CH_Icon.png"
+            className="max-w-12 max-h-12"
+            alt="โลโก้บริษัท ช่างเฮง"
+          />
         </a>
         <span className="sr-only">Change Heng</span>
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden lg:flex gap-4">
+      <nav
+        className="hidden lg:flex gap-4"
+        aria-label="ลิงก์นำทางสำหรับหน้าต่าง ๆ"
+      >
         {navigationItems.map((item) => (
           <div
             key={item.name}
@@ -44,7 +59,12 @@ export const Navbar = () => {
       {/* Mobile Navigation Sheet */}
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger asChild>
-          <Button variant="ghost" size="icon" className="lg:hidden ml-auto" aria-label="Toggle menu">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="lg:hidden ml-auto"
+            aria-label="Toggle menu"
+          >
             <Menu className="h-6 w-6" />
           </Button>
         </SheetTrigger>
@@ -53,7 +73,10 @@ export const Navbar = () => {
             {/* Close Button */}
             <div className="flex justify-end p-6">
               <SheetClose asChild>
-                <button className="text-black transition-colors hover:text-green-500" aria-label="Close navigation">
+                <button
+                  className="text-black transition-colors hover:text-green-500"
+                  aria-label="Close navigation"
+                >
                   <X className="h-8 w-8" />
                 </button>
               </SheetClose>
@@ -78,5 +101,5 @@ export const Navbar = () => {
         </SheetContent>
       </Sheet>
     </header>
-  )
-}
+  );
+};

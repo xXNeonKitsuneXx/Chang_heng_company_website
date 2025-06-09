@@ -1,6 +1,9 @@
 export const Footer = () => {
   return (
-    <footer className="bg-black flex text-center justify-center text-white p-[rem3]">
+    <footer
+      className="bg-black flex text-center justify-center text-white p-[rem3]"
+      aria-label="ส่วนท้ายเว็บไซต์ของบริษัท ช่างเฮง จำกัด"
+    >
       <div className="my-6">
         <h3 className="font-bold text-2xl md:text-3xl">CHANG HENG CO., LTD.</h3>
         <div className="flex justify-center my-3 font-bold text-2xl"></div>

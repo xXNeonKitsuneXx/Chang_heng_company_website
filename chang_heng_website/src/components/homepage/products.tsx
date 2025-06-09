@@ -42,7 +42,10 @@ export const Products = () => {
   );
 
   return (
-    <section className="py-12 md:py-24 lg:py-32 bg-muted">
+    <section
+      className="py-12 md:py-24 lg:py-32 bg-muted"
+      aria-label="แกลเลอรีผลิตภัณฑ์พาเลตไม้และลังไม้จากช่างเฮง"
+    >
       <div
         className="container px-4 md:px-6"
         data-aos="zoom-in-down"
@@ -79,7 +82,9 @@ export const Products = () => {
                       <CardContent className="flex items-center justify-center p-0 w-full h-[316px]">
                         <img
                           src={src || "/Image_placeholder"}
-                          alt={`Product ${index + 1}`}
+                          alt={`ภาพผลิตภัณฑ์พาเลตไม้ ลังไม้ ชิ้นที่ ${
+                            index + 1
+                          }`}
                           className="w-full h-[316px] object-cover rounded"
                         />
                       </CardContent>
@@ -101,7 +106,7 @@ export const Products = () => {
                     : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
                 )}
                 onClick={() => scrollTo(index)}
-                aria-label={`Go to slide ${index + 1}`}
+                aria-label={`ไปยังภาพผลิตภัณฑ์หมายเลข ${index + 1}`}
               />
             ))}
           </div>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "../../app/globals.css";
 import { Navbar } from "@/components/navbar/navbar";
 import { Hero } from "@/components/homepage/hero";
@@ -15,11 +16,39 @@ import { GreatBaking } from "@/components/homepage/greatBaking";
 export const HomePage = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>ช่างเฮง จำกัด | พาเลตไม้ Wooden Pallet คุณภาพ | Chang Heng</title>
+        <meta
+          name="description"
+          content="บริษัท ช่างเฮง จำกัด ผู้ผลิตและจำหน่ายพาเลตไม้ Wooden Pallet พาเลทไม้คุณภาพ สำหรับโรงงาน คลังสินค้า และธุรกิจขนส่ง"
+        />
+        <meta
+          name="keywords"
+          content="ช่างเฮง, พาเลตไม้, Wooden Pallet, Pallet, พาเลท, บริษัท ช่างเฮง จำกัด, Chang Heng, CHANG HENG CO., LTD., โรงงานพาเลตไม้ กรุงเทพ, พาเลตไม้กรุงเทพ, พาเลตไม้ราคาถูก, พาเลตไม้ส่งออก, pallet manufacturer thailand, ไม้พาเลต, ไม้รองสินค้า, ช่างเฮง พาเลต"
+        />
+        <meta name="author" content="Chang Heng Co., Ltd." />
+        <meta property="og:title" content="ช่างเฮง จำกัด | พาเลตไม้คุณภาพ | Chang Heng" />
+        <meta
+          property="og:description"
+          content="พาเลตไม้คุณภาพสูง เหมาะสำหรับคลังสินค้าและการขนส่ง สั่งซื้อจากช่างเฮงได้เลย"
+        />
+        <meta property="og:image" content="/CH_Icon.png" />
+        <meta property="og:url" content="https://changheng.co.th" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ช่างเฮง จำกัด | พาเลตไม้ Wooden Pallet คุณภาพ" />
+        <meta
+          name="twitter:description"
+          content="ช่างเฮง พาเลตไม้คุณภาพ ราคาดี พร้อมส่งทั่วกรุงเทพและทั่วประเทศ"
+        />
+        <meta name="twitter:image" content="/CH_Icon.png" />
+        <html lang="th" />
+      </Helmet>
       <Toaster />
       <Navbar />
-        <div id="home" className="scroll-mt-0 pt-16">
-          <Hero />
-        </div>
+      <div id="home" className="scroll-mt-0 pt-16">
+        <Hero />
+      </div>
       <div className="mb:pt-16">
         <div className="scroll-mt-8" id="about">
           <About />

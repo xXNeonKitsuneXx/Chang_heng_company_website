@@ -1,7 +1,6 @@
 export const About = () => {
   return (
-    <section className="py-12 md:py-24 lg:py-32">
-      {/* <section className="pt-12 mt:py-24 lg:pt-32"> */}
+    <section className="py-12 md:py-24 lg:py-32" aria-label="เกี่ยวกับบริษัท ช่างเฮง ผู้ผลิตลังไม้ พาเลตไม้ ส่งออก">
       <div
         className="container grid grid-cols-1 md:grid-cols-2 gap-8"
         data-aos="zoom-in"
@@ -12,7 +11,7 @@ export const About = () => {
             src="./CH_About.jpg"
             width="550"
             height="400"
-            alt="About"
+            alt="เกี่ยวกับ ช่างเฮง พาเลตไม้ ลังไม้ IPPC ส่งออก"
             className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover"
           />
         </div>

@@ -7,7 +7,10 @@ import {
 
 export const QASection = () => {
   return (
-    <section className="bg-muted pb-16 lg:pb-36 px-4 md:px-6">
+    <section
+      className="bg-muted pb-16 lg:pb-36 px-4 md:px-6"
+      aria-label="คำถามที่พบบ่อยเกี่ยวกับพาเลตไม้ ลังไม้ และบริการจากช่างเฮง"
+    >
       <div
         className="container px-4 md:px-6"
         data-aos="fade-up"
