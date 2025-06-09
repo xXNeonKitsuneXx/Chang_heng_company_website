@@ -21,23 +21,23 @@ export const HomePage = () => {
           <Hero />
         </div>
       <div className="mb:pt-16">
-        <div id="about">
+        <div className="scroll-mt-8" id="about">
           <About />
         </div>
-        <div id="services" className="scroll-mt-36">
+        <div id="services" className="md:scroll-mt-36 scroll-mt-24">
           <Services />
         </div>
         <GreatWood />
         <div className="pt-24">
           <GreatBaking />
         </div>
-        <div id="products">
+        <div className="md:scroll-mt-0 scroll-mt-10" id="products">
           <Products />
         </div>
-        <div id="qa" className="scroll-mt-36">
+        <div id="qa" className="lg:scroll-mt-32 scroll-mt-24">
           <QASection />
         </div>
-        <div id="contact" className="scroll-mt-36">
+        <div id="contact" className="lg:scroll-mt-36 scroll-mt-20">
           <Contact />
         </div>
         <Footer />
