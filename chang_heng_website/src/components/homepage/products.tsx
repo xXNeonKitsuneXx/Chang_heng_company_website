@@ -11,6 +11,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 import { cn } from "@/lib/utils";
 
+import Autoplay from "embla-carousel-autoplay";
+
 const productImages = [
   "/CH_Product_1.JPG",
   "/CH_Product_2.JPG",
@@ -60,9 +62,14 @@ export const Products = () => {
           <Carousel
             setApi={setApi}
             opts={{
-              align: "start",
+              align: "center",
               loop: true,
             }}
+            plugins={[
+              Autoplay({
+                delay: 4181,
+              }),
+            ]}
             className="w-full max-w-7xl"
           >
             <CarouselContent className="-ml-1">
