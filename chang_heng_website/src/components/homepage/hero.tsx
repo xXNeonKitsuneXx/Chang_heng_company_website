@@ -6,7 +6,7 @@ export const Hero = () => {
         data-aos="zoom-in"
       >
         <img
-          src="CH_Hero_1.jpg"
+          src="CH_Hero.jpg"
           alt="Background Image"
           className="absolute inset-0 w-full h-full object-cover"
         />
