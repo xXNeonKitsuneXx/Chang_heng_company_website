@@ -24,7 +24,7 @@ export const HomePage = () => {
         />
         <meta
           name="keywords"
-          content="ช่างเฮง, พาเลตไม้, Wooden Pallet, Pallet, พาเลท, บริษัท ช่างเฮง จำกัด, Chang Heng, CHANG HENG CO., LTD., โรงงานพาเลตไม้ กรุงเทพ, พาเลตไม้กรุงเทพ, พาเลตไม้ราคาถูก, พาเลตไม้ส่งออก, pallet manufacturer thailand, ไม้พาเลต, ไม้รองสินค้า, ช่างเฮง พาเลต, ลังไม้, กะบะไม้, wooden box"
+          content="ช่างเฮง, พาเลตไม้, Wooden Pallet, Pallet, พาเลท, บริษัท ช่างเฮง จำกัด, Chang Heng, CHANG HENG CO., LTD., โรงงานพาเลตไม้ กรุงเทพ, พาเลตไม้กรุงเทพ, พาเลตไม้ราคาถูก, พาเลตไม้ส่งออก, pallet manufacturer thailand, ไม้พาเลต, ไม้รองสินค้า, ช่างเฮง พาเลต, ลังไม้, กะบะไม้, wooden box, crate, wooden crate, IPPC, ISPM15, ลังอบความร้อน, พาเลทอบความร้อน, พาเลตอบความร้อน"
         />
         <meta name="author" content="Chang Heng Co., Ltd." />
         <meta property="og:title" content="ช่างเฮง จำกัด | พาเลตไม้คุณภาพ | Chang Heng" />
