@@ -1,0 +1,17 @@
+services:
+  chang_heng_website_frontend:
+    container_name: chang_heng_website_frontend
+    build: 
+     context: ./chang_heng_website
+     dockerfile: Dockerfile
+    ports:
+      - "80"
+    networks:
+      - changheng-network
+    restart: unless-stopped
+
+networks:
+  changheng-network:
+    # driver: bridge
+    external: true
+    name : changheng-network
