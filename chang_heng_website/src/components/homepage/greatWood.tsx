@@ -4,13 +4,13 @@ export const GreatWood = () => {
       className="flex justify-center items-center relative w-full h-[80vh] overflow-hidden"
       data-aos="fade-up"
       data-aos-duration="500"
-      aria-label="วัตถุดิบไม้คุณภาพสูงจากช่างเฮง สำหรับการผลิตพาเลตไม้"
+      aria-label="วัตถุดิบไม้คุณภาพสูงจากช่างเฮง สำหรับการผลิตพาเลทไม้"
     >
       {/* Left Background Image */}
       <div className="absolute left-0 top-0 w-1/2 h-full">
         <img
           src="CH_GreatWood_1.webp"
-          alt="วัตถุดิบไม้คุณภาพด้านซ้ายสำหรับพาเลตไม"
+          alt="วัตถุดิบไม้คุณภาพด้านซ้ายสำหรับพาเลทไม"
           className="w-full h-full object-cover"
         />
       </div>

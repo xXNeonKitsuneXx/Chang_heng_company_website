@@ -9,7 +9,7 @@ export const GreatBaking= () => {
       <div className="absolute left-0 top-0 w-1/2 h-full">
         <img
           src="CH_Baking_2_UpScale.webp"
-          alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลตไม้โดยช่างเฮง"
+          alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลทไม้โดยช่างเฮง"
           className="w-full h-full object-cover"
         />
       </div>

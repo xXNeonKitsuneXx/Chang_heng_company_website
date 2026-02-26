@@ -44,7 +44,7 @@ export const Products = () => {
   return (
     <section
       className="py-12 md:py-24 lg:py-32 bg-muted"
-      aria-label="แกลเลอรีผลิตภัณฑ์พาเลตไม้และลังไม้จากช่างเฮง"
+      aria-label="แกลเลอรีผลิตภัณฑ์พาเลทไม้และลังไม้จากช่างเฮง"
     >
       <div
         className="container px-4 md:px-6"
@@ -53,7 +53,7 @@ export const Products = () => {
       >
         <div className="flex flex-col items-center text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-            Our Products
+            ผลิตภัณฑ์ พาเลทไม้ และลังไม้ของเรา
           </h2>
           <p className="text-muted-foreground text-2xl pb-1">
             ผลิตภัณฑ์บางส่วนของเรา
@@ -82,7 +82,7 @@ export const Products = () => {
                       <CardContent className="flex items-center justify-center p-0 w-full h-[316px]">
                         <img
                           src={src || "/Image_placeholder"}
-                          alt={`ภาพผลิตภัณฑ์พาเลตไม้ ลังไม้ ชิ้นที่ ${
+                          alt={`ภาพผลิตภัณฑ์พาเลทไม้ ลังไม้ ชิ้นที่ ${
                             index + 1
                           }`}
                           className="w-full h-[316px] object-cover rounded"

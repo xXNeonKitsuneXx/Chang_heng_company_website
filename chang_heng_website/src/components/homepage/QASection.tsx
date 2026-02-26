@@ -9,7 +9,7 @@ export const QASection = () => {
   return (
     <section
       className="bg-muted pb-16 lg:pb-36 px-4 md:px-6"
-      aria-label="คำถามที่พบบ่อยเกี่ยวกับพาเลตไม้ ลังไม้ และบริการจากช่างเฮง"
+      aria-label="คำถามที่พบบ่อยเกี่ยวกับพาเลทไม้ ลังไม้ และบริการจากช่างเฮง"
     >
       <div
         className="container px-4 md:px-6"
@@ -52,7 +52,7 @@ export const QASection = () => {
                 </span>{" "}
                 <br /> <br />
                 หากต้องส่งพาเลทออกต่างประเทศไปพร้อมกับผลิตภัณฑ์ของท่าน
-                พาเลทไม้ก็จะเป็นตัวเลือกที่ถูกกว่าพาเลตจากวัสดุอื่น
+                พาเลทไม้ก็จะเป็นตัวเลือกที่ถูกกว่าพาเลทจากวัสดุอื่น
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value={`item-2`}>

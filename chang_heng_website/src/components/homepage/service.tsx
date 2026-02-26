@@ -4,7 +4,7 @@ export const Services = () => {
   return (
     <section
       className="pb-12 md:pb-24 lg:pb-32"
-      aria-label="บริการจากช่างเฮง ผู้เชี่ยวชาญด้านพาเลตไม้และบรรจุภัณฑ์ไม้"
+      aria-label="บริการจากช่างเฮง ผู้เชี่ยวชาญด้านพาเลทไม้และบรรจุภัณฑ์ไม้"
     >
       <div
         className="container px-4 md:px-6"

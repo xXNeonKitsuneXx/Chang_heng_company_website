@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="py-12 md:py-24 lg:py-32" aria-label="เกี่ยวกับบริษัท ช่างเฮง ผู้ผลิตลังไม้ พาเลตไม้ ส่งออก">
+    <section className="py-12 md:py-24 lg:py-32" aria-label="เกี่ยวกับบริษัท ช่างเฮง ผู้ผลิตลังไม้ พาเลทไม้ ส่งออก">
       <div
         className="container grid grid-cols-1 md:grid-cols-2 gap-8"
         data-aos="zoom-in"
@@ -11,14 +11,14 @@ export const About = () => {
             src="./CH_About.webp"
             width="550"
             height="400"
-            alt="เกี่ยวกับ ช่างเฮง พาเลตไม้ ลังไม้ IPPC ส่งออก"
+            alt="เกี่ยวกับ ช่างเฮง พาเลทไม้ ลังไม้ IPPC ส่งออก"
             className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover"
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl border-l-4 border-green-500 pl-4">
-              About Us
+              โรงงานพาเลทไม้ ช่างเฮง
             </h2>
             <p className="text-muted-foreground md:text-xl pt-2">
               เราเป็นผู้เชี่ยวชาญด้านการผลิตลังไม้ พาเลทไม้
