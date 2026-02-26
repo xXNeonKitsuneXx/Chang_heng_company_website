@@ -55,10 +55,10 @@ export const HomePage = () => {
         <div id="services" className="md:scroll-mt-36 scroll-mt-24">
           <Services />
         </div>
-        <div className="md:scroll-mt-0 scroll-mt-10" id="quality">
+        <div className="md:scroll-mt-0 scroll-mt-8" id="quality">
           <QualityStandards />
         </div>
-        <div className="md:scroll-mt-0 scroll-mt-10" id="products">
+        <div className="md:scroll-mt-0 scroll-mt-8" id="products">
           <Products />
         </div>
         <div id="qa" className="lg:scroll-mt-32 scroll-mt-24">
