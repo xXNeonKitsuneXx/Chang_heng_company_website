@@ -30,7 +30,7 @@ export const Contact = () => {
 
   return (
     <section
-      className="bg-muted pb-10 lg:pb-20 px-4 md:px-6"
+      className="pb-10 lg:pb-20 px-4 md:px-6"
       aria-label="ติดต่อบริษัท ช่างเฮง จำกัด ที่อยู่ เบอร์โทร อีเมล และแผนที่"
     >
       <div

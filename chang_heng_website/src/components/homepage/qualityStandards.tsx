@@ -3,7 +3,7 @@ import { TreePine, Flame, ShieldCheck, Award } from "lucide-react"
 export function QualityStandards() {
   return (
     <section
-      className="py-16 md:py-24 lg:py-32 bg-background"
+      className="py-16 md:py-24 lg:py-32"
       aria-label="มาตรฐานคุณภาพของช่างเฮง วัตถุดิบไม้คุณภาพสูงและอบความร้อนตามมาตรฐาน IPPC"
       data-aos="fade-up"
       data-aos-duration="500"
@@ -29,7 +29,7 @@ export function QualityStandards() {
               <img
                 src="/CH_GreatWood_1.webp"
                 alt="วัตถุดิบไม้คุณภาพสูงสำหรับพาเลทไม้โดยช่างเฮง"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
               <div className="absolute bottom-4 left-4 flex items-center gap-2">
@@ -76,7 +76,7 @@ export function QualityStandards() {
               <img
                 src="/CH_Baking_UpScale_Edited.webp"
                 alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลทไม้โดยช่างเฮง"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
               <div className="absolute bottom-4 left-4 flex items-center gap-2">

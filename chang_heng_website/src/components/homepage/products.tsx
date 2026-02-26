@@ -43,7 +43,7 @@ export const Products = () => {
 
   return (
     <section
-      className="py-12 md:py-24 lg:py-32 bg-muted"
+      className="py-12 md:py-24 lg:py-32"
       aria-label="แกลเลอรีผลิตภัณฑ์พาเลทไม้และลังไม้จากช่างเฮง"
     >
       <div
