@@ -10,36 +10,35 @@ import { QASection } from "@/components/homepage/QASection";
 import { Contact } from "@/components/homepage/contact";
 import { Toaster } from "@/components/ui/toaster";
 import { Fragment } from "react/jsx-runtime";
-import { GreatWood } from "@/components/homepage/greatWood";
-import { GreatBaking } from "@/components/homepage/greatBaking";
+import { QualityStandards } from "@/components/homepage/qualityStandards";
 
 export const HomePage = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>ช่างเฮง จำกัด | พาเลตไม้ Wooden Pallet คุณภาพ | Chang Heng</title>
+        <title>ช่างเฮง | โรงงานผลิต พาเลทไม้ คุณภาพสูง | Chang Heng Co., Ltd.</title>
         <meta
           name="description"
-          content="บริษัท ช่างเฮง จำกัด ผู้ผลิตและจำหน่ายพาเลตไม้ Wooden Pallet พาเลทไม้คุณภาพ สำหรับโรงงาน คลังสินค้า และธุรกิจขนส่ง"
+          content="ช่างเฮง (Chang Heng) โรงงานผู้ผลิตและจำหน่าย พาเลทไม้ (Wooden Pallet) ลังไม้ และไม้รองสินค้าคุณภาพสูง สำหรับคลังสินค้า โรงงานอุตสาหกรรม และการส่งออก"
         />
         <meta
           name="keywords"
-          content="ช่างเฮง, พาเลตไม้, Wooden Pallet, Pallet, พาเลท, บริษัท ช่างเฮง จำกัด, Chang Heng, CHANG HENG CO., LTD., โรงงานพาเลตไม้ กรุงเทพ, พาเลตไม้กรุงเทพ, พาเลตไม้ราคาถูก, พาเลตไม้ส่งออก, pallet manufacturer thailand, ไม้พาเลต, ไม้รองสินค้า, ช่างเฮง พาเลต, ลังไม้, กะบะไม้, wooden box, crate, wooden crate, IPPC, ISPM15, ลังอบความร้อน, พาเลทอบความร้อน, พาเลตอบความร้อน"
+          content="บริษัท ช่างเฮง จำกัด, ช่างเฮง, ช่าง เฮง, พาเลทไม้, Wooden Pallet, Pallet, พาเลท, CHANG HENG CO., LTD., CHANG HENG COMPANY LIMITED, Chang Heng, ChangHeng, Chang heng, โรงงานพาเลทไม้ กรุงเทพ, พาเลทไม้กรุงเทพ, พาเลทไม้ราคาถูก, พาเลทไม้ใหม่, พาเลทส่งออก, ไม้พาเลท, pallet ไม้, ไม้รองสินค้า, wooden pallet thailand, pallet manufacturer thailand, ช่างเฮง พาเลท, ลังไม้, กะบะไม้, wooden box, crate, wooden crate, IPPC, ISPM15, ลังอบความร้อน, พาเลทอบความร้อน, พาเลทอบความร้อน"
         />
         <meta name="author" content="Chang Heng Co., Ltd." />
-        <meta property="og:title" content="ช่างเฮง จำกัด | พาเลตไม้คุณภาพ | Chang Heng" />
+        <meta property="og:title" content="ช่างเฮง จำกัด | พาเลทไม้คุณภาพ | Chang Heng" />
         <meta
           property="og:description"
-          content="พาเลตไม้คุณภาพสูง เหมาะสำหรับคลังสินค้าและการขนส่ง สั่งซื้อจากช่างเฮงได้เลย"
+          content="ผู้เชี่ยวชาญด้านพาเลทไม้ พาเลทไม้ และ Wooden Pallet สำหรับธุรกิจของคุณ"
         />
-        <meta property="og:image" content="/CH_Icon.png" />
+        <meta property="og:image" content="/CH_Icon.webp" />
         <meta property="og:url" content="https://changheng.co.th" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ช่างเฮง จำกัด | พาเลตไม้ Wooden Pallet คุณภาพ" />
+        <meta name="twitter:title" content="ช่างเฮง | พาเลทไม้ Wooden Pallet คุณภาพ" />
         <meta
           name="twitter:description"
-          content="ช่างเฮง พาเลตไม้คุณภาพ ราคาดี พร้อมส่งทั่วกรุงเทพและทั่วประเทศ"
+          content="ช่างเฮง พาเลทไม้คุณภาพ ราคาดี พร้อมส่งทั่วกรุงเทพและทั่วประเทศ"
         />
         <meta name="twitter:image" content="/CH_Icon.png" />
         <html lang="th" />
@@ -56,9 +55,8 @@ export const HomePage = () => {
         <div id="services" className="md:scroll-mt-36 scroll-mt-24">
           <Services />
         </div>
-        <GreatWood />
-        <div className="pt-24">
-          <GreatBaking />
+        <div className="md:scroll-mt-0 scroll-mt-10" id="quality">
+          <QualityStandards />
         </div>
         <div className="md:scroll-mt-0 scroll-mt-10" id="products">
           <Products />
