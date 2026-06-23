@@ -12,6 +12,7 @@ export const About = () => {
             width="550"
             height="400"
             alt="เกี่ยวกับ ช่างเฮง พาเลทไม้ ลังไม้ IPPC ส่งออก"
+            title="เกี่ยวกับ ช่างเฮง พาเลทไม้ ลังไม้ IPPC ส่งออก"
             className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover"
           />
         </div>

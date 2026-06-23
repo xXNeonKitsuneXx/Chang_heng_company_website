@@ -1,4 +1,48 @@
+# =========================================================
+# robots.txt — บริษัท ช่างเฮง จำกัด (Chang Heng Co., Ltd.)
+# =========================================================
+# เว็บไซต์: https://changheng.co.th
+# ผู้ผลิตและจำหน่าย พาเลทไม้ (Wooden Pallet) คุณภาพสูง
+# ที่อยู่: 181 ซอยประชาอุทิศ 49 แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140
+# โทร: 081-666-6686 | อีเมล: changheng.th@gmail.com
+# =========================================================
+
+# --- อนุญาตให้ Search Engine ทุกตัวเข้าถึงเนื้อหาทั้งหมด ---
 User-agent: *
 Allow: /
 
+# ปิดกั้นพาธที่ไม่ต้องการให้ index (ถ้ามีในอนาคต)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# --- Google ---
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# --- Bing / Microsoft ---
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# --- AI Crawlers (ยอมรับการ crawl เพื่อ GEO/AEO) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# =========================================================
+# Sitemap
+# =========================================================
 Sitemap: https://changheng.co.th/sitemap.xml

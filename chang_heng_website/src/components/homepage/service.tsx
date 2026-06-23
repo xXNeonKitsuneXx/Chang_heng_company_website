@@ -13,7 +13,7 @@ export const Services = () => {
       >
         <div className="flex flex-col items-center text-center space-y-4">
           <h2 className="text-4xl font-bold text-center">
-            Our Services
+            บริการ พาเลทไม้ และลังไม้ ของเรา
             <div className="mx-auto w-12 h-1 bg-green-500 mt-2 rounded-full" />
           </h2>
           {/* <p className="text-muted-foreground max-w-3xl text-2xl">

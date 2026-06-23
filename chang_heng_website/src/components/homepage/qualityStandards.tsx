@@ -29,6 +29,7 @@ export function QualityStandards() {
               <img
                 src="/CH_GreatWood_1.webp"
                 alt="วัตถุดิบไม้คุณภาพสูงสำหรับพาเลทไม้โดยช่างเฮง"
+                title="วัตถุดิบไม้คุณภาพสูงสำหรับพาเลทไม้โดยช่างเฮง"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
@@ -76,6 +77,7 @@ export function QualityStandards() {
               <img
                 src="/CH_Baking_UpScale_Edited.webp"
                 alt="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลทไม้โดยช่างเฮง"
+                title="การอบความร้อนตามมาตรฐาน IPPC สำหรับพาเลทไม้โดยช่างเฮง"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />

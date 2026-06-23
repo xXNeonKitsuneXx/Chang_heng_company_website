@@ -97,6 +97,7 @@ export const Contact = () => {
                 <img
                   src="/CH_Map.webp"
                   alt="แผนที่ที่ตั้งบริษัท ช่างเฮง จำกัด ในเขตทุ่งครุ กรุงเทพฯ"
+                  title="แผนที่ที่ตั้งบริษัท ช่างเฮง จำกัด ในเขตทุ่งครุ กรุงเทพฯ"
                   width="400"
                   height="200"
                   className="object-cover w-full h-full"

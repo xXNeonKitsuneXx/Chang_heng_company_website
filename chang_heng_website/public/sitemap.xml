@@ -1,8 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+  sitemap.xml — บริษัท ช่างเฮง จำกัด (Chang Heng Co., Ltd.)
+  ผู้ผลิตและจำหน่าย พาเลทไม้ (Wooden Pallet) คุณภาพสูง — https://changheng.co.th
+  Last modified: 2026-06-23
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+
+  <!-- ===== หน้าหลัก (Homepage) ===== -->
   <url>
     <loc>https://changheng.co.th/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
+    <!-- Hero Image -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Hero.webp</image:loc>
+      <image:title>ช่างเฮง ผู้ผลิตพาเลทไม้ Wooden Pallet คุณภาพสูง กรุงเทพฯ</image:title>
+      <image:caption>โรงงานพาเลทไม้ ช่างเฮง — พาเลทไม้คุณภาพสูงสำหรับโรงงานอุตสาหกรรมและการส่งออก</image:caption>
+    </image:image>
+
+    <!-- About Image -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_About.webp</image:loc>
+      <image:title>เกี่ยวกับ ช่างเฮง — โรงงานผลิตพาเลทไม้ ลังไม้ มาตรฐาน IPPC</image:title>
+      <image:caption>บริษัท ช่างเฮง จำกัด ผู้เชี่ยวชาญพาเลทไม้และลังไม้มากกว่า 40 ปี</image:caption>
+    </image:image>
+
+    <!-- Quality / Wood Material Image -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_GreatWood_1.webp</image:loc>
+      <image:title>วัตถุดิบไม้ใหม่คุณภาพสูง สำหรับพาเลทไม้และลังไม้ โดย ช่างเฮง</image:title>
+      <image:caption>ช่างเฮงใช้ไม้ใหม่ 100% ผ่านการอัดน้ำยาป้องกันแมลง</image:caption>
+    </image:image>
+
+    <!-- Quality / Baking Standard Image -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Baking_UpScale_Edited.webp</image:loc>
+      <image:title>การอบความร้อนพาเลทไม้ตามมาตรฐาน IPPC ISPM-15 โดย ช่างเฮง</image:title>
+      <image:caption>พาเลทไม้ผ่านการอบความร้อนตามมาตรฐาน IPPC เพื่อการส่งออกต่างประเทศ</image:caption>
+    </image:image>
+
+    <!-- Product Images -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_1.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 1</image:title>
+      <image:caption>พาเลทไม้คุณภาพสูง ผลิตจากไม้ใหม่ โดยโรงงาน ช่างเฮง</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_2.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 2</image:title>
+      <image:caption>พาเลทไม้ออกแบบตามสั่ง (Custom) สำหรับอุตสาหกรรมส่งออก</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_3.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 3</image:title>
+      <image:caption>ลังไม้และพาเลทไม้สำหรับคลังสินค้า โรงงานอุตสาหกรรม</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_4.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 4</image:title>
+      <image:caption>พาเลทไม้มาตรฐาน IPPC พร้อมส่งออกต่างประเทศ</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_5.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 5</image:title>
+      <image:caption>พาเลทไม้ผลิตจากไม้ใหม่ ไม่เคยผ่านการใช้งาน ทนทาน แข็งแกร่ง</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Product_6.webp</image:loc>
+      <image:title>พาเลทไม้ ลังไม้ ผลิตภัณฑ์ ช่างเฮง ชิ้นที่ 6</image:title>
+      <image:caption>ผลิตภัณฑ์ไม้บรรจุภัณฑ์ ออกแบบตามสั่ง รองรับน้ำหนักสูงสุด 2 ตัน</image:caption>
+    </image:image>
+
+    <!-- Map / Location Image -->
+    <image:image>
+      <image:loc>https://changheng.co.th/CH_Map.webp</image:loc>
+      <image:title>แผนที่ที่ตั้ง บริษัท ช่างเฮง จำกัด เขตทุ่งครุ กรุงเทพฯ</image:title>
+      <image:caption>ที่ตั้งโรงงาน ช่างเฮง: 181 ซอยประชาอุทิศ 49 แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140</image:caption>
+    </image:image>
   </url>
+
 </urlset>

@@ -18,7 +18,7 @@ export const QASection = () => {
       >
         <div className="mx-auto max-w-3xl space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Frequently Asked Questions
+            คำถามที่พบบ่อย เกี่ยวกับ พาเลทไม้
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed dark:text-gray-400">
             คำตอบสำหรับคำถามทั่วไปเกี่ยวกับผลิตภัณฑ์และบริการของเรา

@@ -85,6 +85,9 @@ export const Products = () => {
                           alt={`ภาพผลิตภัณฑ์พาเลทไม้ ลังไม้ ชิ้นที่ ${
                             index + 1
                           }`}
+                          title={`ภาพผลิตภัณฑ์พาเลทไม้ ลังไม้ ชิ้นที่ ${
+                            index + 1
+                          }`}
                           className="w-full h-[316px] object-cover rounded"
                         />
                       </CardContent>

@@ -32,6 +32,7 @@ export const Navbar = () => {
             src="CH_Icon.webp"
             className="max-w-12 max-h-12"
             alt="โลโก้บริษัท ช่างเฮง"
+            title="โลโก้บริษัท ช่างเฮง"
           />
         </a>
         <span className="sr-only">Change Heng</span>
