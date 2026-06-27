@@ -1,8 +1,8 @@
 FROM node as build
 WORKDIR /mnt
 COPY . .
-RUN yarn
-RUN yarn build
+RUN npm install
+RUN npm run build
 
 # Use official nginx which supports arm64
 FROM nginx:alpine as runner
